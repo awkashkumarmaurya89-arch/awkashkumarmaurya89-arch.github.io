@@ -1,90 +1,73 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Awkash Kumar Maurya - Projects and Coding Portfolio">
-  <title>Awkash Kumar Maurya | Projects</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b12">
+  <meta name="description" content="Awkash Kumar Maurya — Programmer and AI Developer.">
+  <title>Awkash Kumar Maurya | Programmer & AI Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <header class="navbar">
-    <a class="logo" href="#">AWKASH KUMAR<span>.</span></a>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">A<span>.</span></span> AWKASH<span class="muted">_DEV</span></a>
     <nav>
-      <a href="#home">Home</a>
-      <a href="#projects">Projects</a>
       <a href="#about">About</a>
+      <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
+    <span class="status"><i></i> PORTFOLIO ONLINE</span>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <p class="tag">MY DIGITAL WORKSPACE</p>
-      <h1>Building Ideas.<br><span>Creating Projects.</span></h1>
-      <p class="intro">
-        Welcome to my project portfolio.
-        Explore my coding projects, experiments and creations.
-      </p>
-      <a href="#projects" class="btn">Explore Projects →</a>
-    </section>
-
-    <section class="projects" id="projects">
-      <p class="tag">MY WORK</p>
-      <h2>Featured Projects</h2>
-      <div class="project-grid">
-
-        <article class="project-card">
-          <div class="project-icon">🤖</div>
-          <h3>MR AI Assistant</h3>
-          <p>A personal AI assistant project with Hindi voice interaction and online/offline features.</p>
-          <span class="tech">Python · AI · Ollama</span>
-          <a href="#" class="project-link">View Project →</a>
-        </article>
-
-        <article class="project-card">
-          <div class="project-icon">💻</div>
-          <h3>Web Development</h3>
-          <p>My experiments with modern websites, HTML, CSS and JavaScript.</p>
-          <span class="tech">HTML · CSS · JS</span>
-          <a href="#" class="project-link">View Project →</a>
-        </article>
-
-        <article class="project-card">
-          <div class="project-icon">🚀</div>
-          <h3>Future Projects</h3>
-          <p>New ideas, coding experiments and projects coming soon.</p>
-          <span class="tech">In Progress</span>
-          <a href="#contact" class="project-link">Coming Soon →</a>
-        </article>
-
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="line"></span> HELLO, WORLD — WELCOME TO MY SPACE</p>
+        <h1>Awkash Kumar<br><span>Maurya</span></h1>
+        <p class="role">PROGRAMMER <b>·</b> AI DEVELOPER</p>
+        <p class="intro">I build digital experiences, explore artificial intelligence, and turn ideas into real projects.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">Explore Projects <span>↗</span></a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="hero-meta"><span>BASED IN INDIA</span><span>·</span><span>LEARNING. BUILDING. IMPROVING.</span></div>
+      </div>
+      <div class="portrait-wrap">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="portrait-frame">
+          <img src="assets/awkash-portrait.png" alt="Pencil-sketch portrait of Awkash Kumar Maurya">
+          <div class="corner corner-tl"></div><div class="corner corner-br"></div>
+        </div>
+        <div class="photo-tag"><span>01</span> / THE CREATOR</div>
+        <div class="float-code"> &lt; AI /&gt; <br><span>CREATIVE MIND</span></div>
       </div>
     </section>
 
-    <section class="about" id="about">
-      <p class="tag">ABOUT ME</p>
-      <h2>Awkash Kumar Maurya</h2>
-      <p>
-        I am learning programming and building technology projects.
-        My goal is to turn creative ideas into useful digital products.
-      </p>
+    <section class="section" id="about">
+      <div class="section-head"><p class="eyebrow">01 / INTRODUCTION</p><h2>About <span>Me</span></h2></div>
+      <div class="about-panel">
+        <p>I'm <strong>Awkash Kumar Maurya</strong>, a student and aspiring programmer interested in software, web development, and AI. This website is my digital portfolio — a place to share what I learn and create.</p>
+        <div class="focus-list"><span>WEB DEVELOPMENT</span><span>ARTIFICIAL INTELLIGENCE</span><span>PYTHON & CODING</span></div>
+      </div>
     </section>
 
-    <section class="contact" id="contact">
-      <p class="tag">GET IN TOUCH</p>
-      <h2>Let's Connect</h2>
-      <p>Interested in my projects? Explore my GitHub profile.</p>
-      <a class="btn" href="https://github.com/awkashkumarmaurya89-arch"
-         target="_blank" rel="noopener">Visit GitHub →</a>
+    <section class="section" id="projects">
+      <div class="section-head"><p class="eyebrow">02 / WHAT I'M BUILDING</p><h2>Featured <span>Projects</span></h2></div>
+      <div class="project-grid">
+        <article class="project-card"><span class="project-no">PROJECT_01</span><div class="project-icon">◈</div><h3>MR AI Assistant</h3><p>A personal assistant project exploring voice interaction, AI, and helpful desktop features.</p><span class="project-type">AI / PYTHON</span></article>
+        <article class="project-card"><span class="project-no">PROJECT_02</span><div class="project-icon">⌘</div><h3>Web Development</h3><p>Websites and experiments built while learning HTML, CSS, and JavaScript.</p><span class="project-type">HTML / CSS / JS</span></article>
+        <article class="project-card"><span class="project-no">PROJECT_03</span><div class="project-icon">＋</div><h3>Coming Next</h3><p>More ideas, experiments, and projects will be added here as they take shape.</p><span class="project-type">IN PROGRESS</span></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-head"><p class="eyebrow">03 / GET IN TOUCH</p><h2>Let's <span>Connect</span></h2></div>
+      <p>Want to explore my work or follow my coding journey?</p>
+      <a class="btn primary" href="https://github.com/awkashkumarmaurya89-arch" target="_blank" rel="noreferrer">Visit my GitHub <span>↗</span></a>
     </section>
   </main>
-
-  <footer>
-    <p>© <span id="year"></span> Awkash Kumar Maurya. All rights reserved.</p>
-  </footer>
-
+  <footer><span>© <span id="year"></span> AWKASH KUMAR MAURYA</span><span>DESIGNED & BUILT WITH CURIOSITY <b>✦</b></span></footer>
   <script src="script.js"></script>
 </body>
 </html>
